@@ -1,0 +1,29 @@
+/* Styling for all */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contact Form Styling */
+#contact-container {
+  border-radius: 5px;
+  background-color: skyblue;
+  padding: 35px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px, solid, black;
+  border-radius: 8px;
+  margin: 4px 0 4px 0;
+}
+
+input[type="submit"] {
+  padding: 15px, 15px;
+  border-radius: 8px;
+  background-color: forestgreen;
+  color: white;
+  height: 40px;
+  width: 100px;
+}

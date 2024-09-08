@@ -4,14 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css" />
   </head>
   <body>
+    <!-- navbar -->
     <div class="navbar">
-      <a href="./home.html" class="page"></a
-      ><a href=".contact.html" class="page"></a
-      ><a href="./about.html" class="page"></a>
+      <a href="./home.html" class="page">Home</a
+      ><a href="./contact.html" class="page">Contact</a
+      ><a href="./about.html" class="page">About</a>
     </div>
-    <div class="conatiner"></div>
+    <!-- contact form -->
+    <div id="contact-container">
+      <form action="contact-form">
+        <label for="user-name">Username:</label>
+        <input
+          type="text"
+          id="uname"
+          name="username"
+          placeholder="username"
+          required
+        />
+        <label for="email"
+          >Email:<input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="email"
+            required
+        /></label>
+
+        <label for="subject">Subject:</label>
+        <textarea
+          id="text-area"
+          name="text-area"
+          placeholder="Please write here..."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <!-- footer -->
     <footer id="my-footer">
       <div class="footer-content">
         <a href="#" class="footer-icon" target="_blank"
