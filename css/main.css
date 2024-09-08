@@ -68,6 +68,24 @@ body {
   padding-bottom: 8px;
 }
 
+/* Home Page Styling */
+.home-container {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.home-container h3 {
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  font-style: italic;
+  border-bottom: 3px solid white;
+  display: inline;
+}
+
 /* Contact Form Styling */
 #contact-container {
   display: flex;
