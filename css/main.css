@@ -236,3 +236,20 @@ input[type="submit"]:hover {
 }
 
 /* about page - rating form */
+.rating-container {
+  border: 1px solid black;
+  font-style: bold;
+  border-radius: 5px;
+  background-color: mintcream;
+  padding: 40px;
+}
+
+.form-text:nth-child(1) {
+  /* padding-top: 20px; */
+}
+
+.rating-container #rating {
+  border-radius: 10%;
+  padding: 3px;
+  font-size: 15px;
+}
