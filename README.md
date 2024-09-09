@@ -7,6 +7,9 @@ home, contact, about.
 ## Intallation
 How to install and run the project
 
+## Tech used
+HTML, CSS, Flexbox, Bootstrap
+
 # Clone the repository
 git clone https://github.com/SuperWebMonkey/sba-307-basic-website.git
 
