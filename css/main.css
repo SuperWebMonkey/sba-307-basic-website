@@ -191,7 +191,7 @@ input[type="submit"]:hover {
   flex-direction: column;
 }
 
-#about-title {
+.about-title {
   margin: 0 auto;
   text-align: center;
   color: white;
@@ -201,12 +201,12 @@ input[type="submit"]:hover {
   transition-duration: 2s;
 }
 
-#about-title::before,
-#about-title::after {
+.about-title::before,
+.about-title::after {
   content: "*****";
 }
 
-#about-title:hover {
+.about-title:hover {
   transform: rotate(360deg);
 }
 
@@ -228,6 +228,7 @@ input[type="submit"]:hover {
   height: 120px;
   transition-property: width, height;
   transition-duration: 1s;
+  margin-bottom: 10px;
 }
 
 .about-pic:hover {
@@ -237,16 +238,18 @@ input[type="submit"]:hover {
 
 /* about page - rating form */
 .rating-container {
+  margin-top: 20px;
   border: 1px solid black;
   font-style: bold;
   border-radius: 5px;
   background-color: mintcream;
   padding: 40px;
+  margin-bottom: 10px;
 }
 
-.form-text:nth-child(1) {
-  /* padding-top: 20px; */
-}
+/* .form-text:nth-child(1) {
+  padding-top: 20px;
+} */
 
 .rating-container #rating {
   border-radius: 10%;

@@ -9,19 +9,31 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .customer-reviews {
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+    </style>
   </head>
   <body>
     <!-- navbar -->
-    <div id="navbar">
+    <section id="navbar">
       <a href="./home.html" class="page happy-elephant">Happy Elephant Thai</a>
       <a href="./home.html" class="page home-page">Home</a
       ><a href="./contact.html" class="page contact-page">Contact</a
       ><a href="./about.html" class="page about-page">About</a>
       <a href="#" class="page login" style="float: right">login</a>
-    </div>
+    </section>
     <!-- about page -->
-    <div id="about-container">
-      <h2 id="about-title">About Us</h2>
+    <section id="about-container">
+      <h2 class="about-title title-1">About Us</h2>
       <img
         src="https://via.placeholder.com/300"
         alt="about-pic"
@@ -44,6 +56,69 @@
         perferendis. Quo, consequuntur autem. Eveniet quae enim cupiditate eius
         deserunt.
       </p>
+      <h2 class="about-title title-2">Customer Ratings</h2>
+      <div class="customer-reviews">
+        <!-- first card -->
+        <div class="m-4">
+          <div class="card card-1" style="width: 250px">
+            <img
+              src="https://perscholas.org/wp-content/uploads/2020/07/Copy-of-621A8338.png"
+              class="card-img-top"
+              alt="Sample Image"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Alice Liddel</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium eveniet quas voluptas consectetur dolorem pariatur a
+                omnis qui cum neque? Quas nobis obcaecati explicabo, excepturi
+                maxime soluta illo deserunt nesciunt.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- second card -->
+        <div class="m-4">
+          <div class="card card-2" style="width: 250px">
+            <img
+              src="https://perscholas.org/wp-content/uploads/2020/07/Copy-of-621A8338.png"
+              class="card-img-top"
+              alt="Sample Image"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Alice Liddel</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                earum porro eaque repellendus, eius consequatur ad tenetur hic
+                quos cum quis delectus quam libero natus tempore quidem suscipit
+                ab rerum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- third card -->
+        <div class="m-4">
+          <div class="card card-3" style="width: 250px">
+            <img
+              src="https://perscholas.org/wp-content/uploads/2020/07/Copy-of-621A8338.png"
+              class="card-img-top"
+              alt="Sample Image"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Alice Liddel</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                id in nesciunt itaque ab laudantium fugit deleniti blanditiis
+                eum recusandae. Eligendi maxime iusto culpa nihil ex amet unde
+                aliquam corporis?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End of cards -->
+      </div>
+      <!-- rating container -->
+      <h2 class="about-title title-3">Rating Form:</h2>
       <div class="rating-container">
         <form action="#">
           <label for="rating"
@@ -80,8 +155,7 @@
           <input type="submit" value="Submit" />
         </form>
       </div>
-    </div>
-
+    </section>
     <!-- footer -->
     <footer id="my-footer">
       <hr />
