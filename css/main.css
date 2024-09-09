@@ -240,7 +240,7 @@ input[type="submit"]:hover {
 .rating-container {
   margin-top: 15px;
   border: 1px solid black;
-  font-style: bold;
+  font-weight: bold;
   border-radius: 5px;
   background-color: mintcream;
   padding: 40px;
@@ -255,4 +255,8 @@ input[type="submit"]:hover {
   border-radius: 10%;
   padding: 3px;
   font-size: 15px;
+}
+
+#rating-form label {
+  display: contents;
 }

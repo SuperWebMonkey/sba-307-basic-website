@@ -123,7 +123,7 @@
       <!-- rating container -->
       <h2 class="about-title title-3">Rating Form:</h2>
       <div class="rating-container">
-        <form action="#">
+        <form action="#" id="rating-form">
           <label for="rating"
             ><strong class="form-text">Let us know how we did:</strong></label
           >
@@ -145,8 +145,11 @@
               placeholder="email"
               required
           /></label>
+          <!-- <br /> -->
           <label for="subject"
-            ><strong class="form-text">Subject:</strong></label
+            ><strong class="form-text" id="about-subject-label"
+              >Subject:</strong
+            ></label
           >
           <textarea
             id="text-area"
