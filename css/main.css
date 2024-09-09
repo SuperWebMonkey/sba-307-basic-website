@@ -201,6 +201,11 @@ input[type="submit"]:hover {
   transition-duration: 2s;
 }
 
+#about-title::before,
+#about-title::after {
+  content: "*****";
+}
+
 #about-title:hover {
   transform: rotate(360deg);
 }
@@ -229,3 +234,5 @@ input[type="submit"]:hover {
   width: 200px;
   height: 140px;
 }
+
+/* about page - rating form */
