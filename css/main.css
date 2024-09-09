@@ -238,7 +238,7 @@ input[type="submit"]:hover {
 
 /* about page - rating form */
 .rating-container {
-  margin-top: 20px;
+  margin-top: 15px;
   border: 1px solid black;
   font-style: bold;
   border-radius: 5px;
